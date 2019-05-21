@@ -1147,6 +1147,9 @@ $print-body-min-width:              map-get($grid-breakpoints, "lg") !default;
 .pointer {
   cursor: pointer;
 }
+.pointer:hover{
+  background-color: #ffe180;
+}
 .write-mode {
   writing-mode: vertical-lr;
 }
