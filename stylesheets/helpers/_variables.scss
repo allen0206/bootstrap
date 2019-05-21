@@ -1253,3 +1253,17 @@ $print-body-min-width:              map-get($grid-breakpoints, "lg") !default;
 .bg-footer {
   background-color: #EAF0ED
 }
+.mt--20{
+  margin-top: -20px;
+}
+.fs-24{
+  font-size: 24px;
+}
+@media (min-width:768px){
+  .mt--20{
+    margin-top: 0;
+  }
+  .fs-24{
+    font-size: 16px;
+  }
+}
